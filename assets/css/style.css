@@ -15,6 +15,26 @@ main {
     background-color: rgba(78,10,11,255)
 }
 
-.header {
+header, main, footer {
+    border: 2px solid green;
+    padding: 5% 10%;
+}
 
+.header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.header h1, a {
+    padding-bottom: 10px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    border-bottom: 2px solid rgb(255, 157, 0);
 }
