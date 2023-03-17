@@ -4,14 +4,19 @@ const main = document.querySelector("main");
 
 header.insertAdjacentHTML("beforeend", `
     <div class="header">
-        <h1>Fael Hamburguer</h1>
+        <h1>Fael Burguer</h1>
         <div class="opcoes">
-            <a href="">Início</a>
-            <a href="">Faça seu Pedido</a>
-            <a href="">Nossos Princípios</a>
-            <a href="">Fale Conosco</a>
+            <nav>
+                <ul>
+                    <a href="">Quem somos</a>
+                    <a href="">Promoções</a>
+                    <a href="">Cardápio</a>
+                    <a href="">Contato</a>
+                    <a href="">Peça Aqui!</a>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </div> 
 `)
 
 main.insertAdjacentHTML("beforeend", `
