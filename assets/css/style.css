@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400&family=Noto+Serif+Lao:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
 
 * {
     padding: 0;
@@ -35,8 +36,10 @@ main {
 }
 
 .header h1 {
-    padding-right: 280px;
     font-size: 25px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    transform: rotate(-9deg);
+    margin-right: 300px;
 }
 
 .header li {
