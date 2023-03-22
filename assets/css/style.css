@@ -35,24 +35,26 @@ main {
 }
 
 .header h1 {
-    padding-right: 100px;
+    padding-right: 280px;
     font-size: 25px;
 }
 
-.header nav {
-    right: 0;
-}
-
-.header > .opcoes > nav {
+.header li {
+    display: inline-block;
+    list-style: none;
 }
 
 .header a {
     text-decoration: none;
-    margin-left: 90px;
     font-size: 12px;
 }
 
-.header a:hover {
+.header p {
+    display: inline;
+    margin-right: 40px;
+}
+
+.header p:hover {
     transition: 0.5s;
     padding-bottom: 5px;
     color: rgb(193, 181, 7);

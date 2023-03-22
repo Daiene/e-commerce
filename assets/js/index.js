@@ -7,13 +7,23 @@ header.insertAdjacentHTML("beforeend", `
         <h1>Fael Burguer</h1>
         <div class="opcoes">
             <nav>
-                <ul>
-                    <a href="">Quem somos</a>
-                    <a href="">Promoções</a>
-                    <a href="">Cardápio</a>
-                    <a href="">Contato</a>
-                    <a href="">Peça Aqui!</a>
-                </ul>
+            <ul>
+                <li><a href="#">
+                    <p>Quem somos</p>
+                </a></li>
+                <li><a href="">
+                    <p>Promoções</p>
+                </a></li>
+                <li><a href="">
+                    <p>Cardápio</p>
+                </a></li>
+                <li><a href="">
+                    <p>Contato</p>
+                </a></li>
+                <li><a href="">
+                    <p>Peça Aqui!</p>
+                </a></li>
+            </ul>
             </nav>
         </div>
     </div> 
